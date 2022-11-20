@@ -1,6 +1,6 @@
 import balanceParentheses from './BalanceParentheses'
 
-test("Alphabet Soup", () => {
+test("Balance Parentheses", () => {
   expect(balanceParentheses("()")).toBe(true)
   expect(balanceParentheses("()[]{}")).toBe(true)
   expect(balanceParentheses("(]")).toBe(false)
