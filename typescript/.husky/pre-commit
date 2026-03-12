@@ -1,0 +1,1 @@
+cd typescript && npx lint-staged
