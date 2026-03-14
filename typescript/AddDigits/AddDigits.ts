@@ -1,9 +1,9 @@
 const addTwoDigits = (n: number): number => {
-  const numsArr = n.toString().split('')
+    const numsArr = n.toString().split('');
 
-  return numsArr.reduce((acc: number, digit: string) => {
-    return acc + parseInt(digit)
-  }, 0)
-}
+    return numsArr.reduce((acc: number, digit: string) => {
+        return acc + parseInt(digit);
+    }, 0);
+};
 
-export default addTwoDigits
+export default addTwoDigits;

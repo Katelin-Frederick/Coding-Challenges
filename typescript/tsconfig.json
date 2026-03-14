@@ -1,30 +1,26 @@
 {
-  "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "module": "CommonJS",
-    "moduleResolution": "Node10",
-    "noImplicitAny": true,
-    "outDir": "./build",
-    "sourceMap": true,
-    "target": "ES2022",
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "noImplicitThis": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "resolveJsonModule": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "allowJs": false
-  },
-  "exclude": [
-    "node_modules"
-  ],
-  "include": [
-    "./**/*"
-  ]
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "module": "CommonJS",
+        "moduleResolution": "Node10",
+        "noImplicitAny": true,
+        "outDir": "./build",
+        "sourceMap": true,
+        "target": "ES2022",
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "resolveJsonModule": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "allowJs": false
+    },
+    "exclude": ["node_modules"],
+    "include": ["./**/*"]
 }
